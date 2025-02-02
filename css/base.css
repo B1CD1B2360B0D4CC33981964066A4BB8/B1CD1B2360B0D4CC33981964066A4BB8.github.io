@@ -7,6 +7,32 @@ h1 {
   
   }
 
+  h2 {
+    color:  #CFCEE2;
+    text-align: center;
+    font-family: "Courier Prime", serif;
+    font-weight: 700;
+    font-size: 40px;
+  
+  }
+  
+  h3 {
+    color:  #CFCEE2;
+    text-align: center;
+    font-family: "Courier Prime", serif;
+    font-weight: 700;
+    font-size: 30px;
+  
+  }
+  
+  h4 {
+    color:  #CFCEE2;
+    text-align: center;
+    font-family: "Courier Prime", serif;
+    font-weight: 700;
+    font-size: 25px;
+  
+  }
 
   body {
     background-color: #171623;
@@ -16,20 +42,15 @@ h1 {
     padding: 0;
     }  
 
-    h2 {
-        color:#CFCEE2;
-        text-align: center;
-        font-family: "Courier Prime", serif;
-        font-weight: 700;
-        font-size: 40px;
-        }
+
         
         p {
         color:#CFCEE2;
         text-align: center;
         font-family: "Courier Prime", serif;
         font-weight: 400;
-        font-size: 30px;
+        font-size: 20px;
+        padding: 60px;
         }
         
         a {
@@ -38,3 +59,31 @@ h1 {
         font-family: "Courier Prime", serif;
         font-weight: 400;
         }
+
+        @media (max-width: 768px) {
+          h1 {
+              font-size: 30px;
+          }
+      
+          h2 {
+              font-size: 25px;
+          }
+      
+          h3 {
+              font-size: 20px;
+          }
+      
+          h4 {
+              font-size: 18px;
+          }
+      
+          p {
+              font-size: 16px;
+              padding: 20px;
+          }
+      
+          body {
+              height: auto;
+              width: auto;
+          }
+      }
